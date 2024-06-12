@@ -4,22 +4,99 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stuff</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-        <div class="Header">
+        <div class="Header mDarkBG">
                 <div class="HeaderLogo mTextLight">Header Logo</div>
-                <ul>
-                        <li><a class="mTextLight" href="#">header link one</a></li>
-                        <li><a class="mTextLight" href="#">header link two</a></li>
-                        <li><a class="mTextLight" href="#">header link three</a></li>
+                <ul class="Links">
+                        <li><a class="mSmol mTextLight" href="#">header link one</a></li>
+                        <li><a class="mSmol mTextLight" href="#">header link two</a></li>
+                        <li><a class="mSmol mTextLight" href="#">header link three</a></li>
                 </ul>
         </div>
-        <div class="Content">
-
+        <div class="Hero mDarkBG">
+                <div class="HeroLeft">
+                        <div class="HeroText mBold mTextLight">This website is awesome</div>
+                        <div class="SubText mTextLightMed">
+                                This website has some subtext that goes here under
+                                the main title. It's a smaller font and the color
+                                is lower contrast.
+                        </div>
+                        <div><button class="mAccent mTextLight" >Sign up</button></div>
+                </div>
+                <div class="HeroRight">
+                        <img class="HeroImage" src="./images/hero-image.png" alt="placeholder" />
+                </div>
         </div>
-        <div class="Footer">
-                Copyright The Odin Project
+        <div class="Content">
+                <div class="ContentTitle mBold mTextDark">Some random information.</div>
+                <div class="CardContainer">
+                        <div class="Card">
+                                <div class="CardImageContainer">
+                                        <img class="CardImage" src="./images/card-image.png" />
+                                </div>
+                                <div class="CardText mTextDark">
+                                        this is some subtext under an 
+                                        image or illustration
+                                </div>
+                        </div>
+                        <div class="Card">
+                                <div class="CardImageContainer">
+                                        <img class="CardImage" src="./images/card-image.png" />
+                                </div>
+                                <div class="CardText mTextDark">
+                                        this is some subtext under an 
+                                        image or illustration
+                                </div>
+                        </div>
+                        <div class="Card">
+                                <div class="CardImageContainer">
+                                        <img class="CardImage" src="./images/card-image.png" />
+                                </div>
+                                <div class="CardText mTextDark">
+                                        this is some subtext under an 
+                                        image or illustration
+                                </div>
+                        </div>
+                        <div class="Card">
+                                <div class="CardImageContainer">
+                                        <img class="CardImage" src="./images/card-image.png" />
+                                </div>
+                                <div class="CardText mTextDark">
+                                        this is some subtext under an 
+                                        image or illustration
+                                </div>
+                        </div>
+                </div>
+                <div class="QuoteContainer">
+                        <div class="QuoteMain mTextDark">
+                                This is and inspiring quote, or a testimonial
+                                from a customer. Maybe it's just filling up
+                                space, or maybe people will actually
+                                read it. Who knows? All I know is 
+                                that it looks nice.
+                        </div>
+                        <div class="QuoteOrigin mTextDark mSmol">
+                                -Thor, God of Thunder
+                        </div>
+                </div>
+                <div class="CallContainer mAccent">
+                        <div class="CallTextContainer">
+                                <div class="CallHeader mBold mTextLight">Call to action! It's time!</div>
+                                <div class="CallText mSmol mTextLight">
+                                        Sign up for our product
+                                        by clicking that button right there!
+                                </div>
+                        </div>
+                        <div><button class="CallButton mAccent mTextLight">Sign up</button></div>
+                </div>
+        </div>
+        <div class="Footer mDarkBG mTextLight">
+                Copyright &copy The Odin Project 2021
         </div>
 </body>
 </html>
