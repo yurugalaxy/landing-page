@@ -41,11 +41,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* END CSS RESET */
 
-body, .HeroLeft, .Card, .CallTextContainer {
-        display: flex;
-        flex-direction: column;
-}
-
 body {
         height: 100vh;
         font-family: roboto, sans-serif;
@@ -101,7 +96,12 @@ img {
         background-color: #3882f6;
 }
 
-.Header, .Hero, .CardContainer, .QuoteContainer {
+.mFlexColumn {
+        display: flex;
+        flex-direction: column;
+}
+
+.mPadding {
         padding: 8px 20% 80px;
 }
 
@@ -215,4 +215,8 @@ img {
 
 .CallButton {
         border: 2px solid #f9faf8;
+}
+
+.CallHeader {
+        font-size: 24px;
 }
